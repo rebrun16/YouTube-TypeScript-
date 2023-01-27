@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import './navbar.css';
+import React, { useState } from "react";
 
-import VideoCallOutlinedIcon from '@mui/icons-material/VideoCallOutlined';
-import CloseIcon from '@mui/icons-material/Close';
-import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import KeyboardIcon from '@mui/icons-material/Keyboard';
-import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import "./navbar.css";
+
+import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
+import CloseIcon from "@mui/icons-material/Close";
+import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
+import KeyboardIcon from "@mui/icons-material/Keyboard";
+import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
